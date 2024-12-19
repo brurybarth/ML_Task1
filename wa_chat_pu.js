@@ -49,7 +49,7 @@ async function handleUserMessage(chat, userMessage) {
         return text;
     } catch (error) {
         console.error("Error in AI response:", error);
-        return "Maaf, terjadi kesalahan saat memproses pesan Anda.";
+        return "Maaf, terjadi error saat memproses pesan Anda.";
     }
 }
 
